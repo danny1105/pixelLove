@@ -4,7 +4,7 @@ var bodyParser = require('body-parser');
 var app = express();
 var mongoose = require('mongoose');
 const passport = require('passport');
-const multer = requier('multer');
+const multer = require('multer');
 const GridFsStorage = require('multer-gridfs-storage');
 const Grid = require('gridfs-stream');
 
