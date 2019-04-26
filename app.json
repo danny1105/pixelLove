@@ -1,0 +1,7 @@
+{
+    "name": "PixelLove A growing Camera Application",
+    "description": "A camera application",
+    "repository": "https://github.com/danny1105/pixelLove",
+    "keywords": ["node", "express", "static"],
+    "image": "heroku/nodejs"
+}
