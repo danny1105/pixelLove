@@ -12,6 +12,14 @@
   },
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "10.13.0"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
   "dependencies": {
     "bcrypt": "^3.0.6",
     "body-parser": "^1.18.3",
