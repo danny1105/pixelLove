@@ -22,7 +22,7 @@ This endpoint is used to register a user and store the user information in the D
 * confirm password
 
 ```
-/api/users/register
+https://pixel-love.herokuapp.com/api/users/register
 ```
 
 ## GET Endpoint for login
@@ -32,7 +32,7 @@ This endpoint is used to login a user. The following inputs are required for thi
 * password
 
 ```
-/api/users/login
+https://pixel-love.herokuapp.com/api/users/login
 ```
 
 ## POST Endpoint for multimedia file upload
@@ -40,7 +40,7 @@ This endpoint is used to login a user. The following inputs are required for thi
 This endpoint is used to upload a multimedia file and store it into the Database.
 
 ```
-/upload
+https://pixel-love.herokuapp.com/upload
 ```
 
 ## GET Endpoint for fetching all the multimedia files.
@@ -48,7 +48,7 @@ This endpoint is used to upload a multimedia file and store it into the Database
 This endpoint is used to fetch all the multimedia files from the Database.
 
 ```
-/files
+https://pixel-love.herokuapp.com/files
 ```
 
 ## Authors
