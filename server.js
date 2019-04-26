@@ -28,6 +28,11 @@ const db = require("./config/keys").mongoURI;
 //     .then(() => console.log("mongoDb connected"))
 //     .catch(err => console.log(err))
 
+// Initialise Index Page
+app.get('/', (req, res) => {
+    res.send('Welocome to Pixel Love');
+});
+
 //Create Mongo Connection
 const conn = mongoose.createConnection(db);
 
