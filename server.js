@@ -104,6 +104,14 @@ require('./config/passport')(passport);
 //  Routes
 app.use('/api/users', users);
 
+if (process.env.NODE_ENV === 'production') {
+	app.use(express.static('pair_pro/build'));
+}
+
+// app.get('*', (request, response) => {
+// 	response.sendFile(path.join(__dirname, 'pair_pro/build', 'index.html'));
+// });
+
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`)
 });
