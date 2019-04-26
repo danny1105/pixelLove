@@ -6,9 +6,7 @@
   "scripts": {
     "client-install": "npm install --prefix client",
     "start": "node server.js",
-    "server": "nodemon server.js",
-    "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "server": "nodemon server.js"
   },
   "author": "",
   "license": "ISC",
@@ -23,7 +21,6 @@
   "dependencies": {
     "bcrypt": "^3.0.6",
     "body-parser": "^1.18.3",
-    "concurrently": "^4.1.0",
     "cors": "^2.8.5",
     "crypto": "^1.0.1",
     "express": "^4.16.4",
